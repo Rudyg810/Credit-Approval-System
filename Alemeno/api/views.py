@@ -6,7 +6,7 @@ from .serializers import CustomerRegistrationSerializer
 from .models import Loan, Customer
 from .serializers import LoanApprove
 from .serializers import LoanEligibilitySerializer
-from django.shortcuts import render
+from django.shortcuts import render 
 from django.db.models import F
 from django.db import models
 from django.db.models import Sum
